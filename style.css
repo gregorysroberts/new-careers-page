@@ -1,3 +1,20 @@
 html {
 	font-size: 16px;
 }
+
+body {
+
+}
+
+section {
+
+}
+
+.section-padding {
+	padding: 2em 0;
+}
+
+.bg-505050 {
+	background-color: #505050;
+	min-height: 184px;
+}
