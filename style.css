@@ -75,3 +75,13 @@ section h2 {
 	width: 34%;
 	display: inline-block;
 }
+
+#benefits-bullets {
+	width: 49%;
+	display: inline-block;
+}
+
+#perks-bullets {
+	width: 49%;
+	display: inline-block;
+}
