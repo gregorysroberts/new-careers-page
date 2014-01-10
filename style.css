@@ -69,11 +69,13 @@ section h2 {
 #benefits-list {
 	width: 65%;
 	display: inline-block;
+	box-sizing: border-box;
 }
 
 #testimonials {
 	width: 34%;
 	display: inline-block;
+	box-sizing: border-box;
 }
 
 #benefits-bullets {
@@ -84,4 +86,9 @@ section h2 {
 #perks-bullets {
 	width: 49%;
 	display: inline-block;
+}
+
+ul {
+	list-style-type: none;
+	padding-left: 0;
 }
