@@ -1,20 +1,77 @@
 html {
-	font-size: 16px;
+
 }
 
 body {
+	font-family: "Open Sans", Arial, sans-serif;
+	color: #393839;
+	font-weight: 300;
+	padding: 0;
+	margin: 0;
+	/*padding: 3% 14%;*/
+	/*background-color: #CCCCCC;*/
+}
 
+h2 {
+	font-weight: normal;
+}
+
+h1 {
+	color: #2b9ab5;
+	font-weight: 400;
+	font-size: 1.875em;
+	text-align: center;
+	font-style: italic;
 }
 
 section {
-
+	margin: 0 auto;
 }
 
-.section-padding {
-	padding: 2em 0;
+section h2 {
+	text-align: left;
 }
 
-.bg-505050 {
+#title {
+	padding-top: 1%;
+	font-size: 1.25em;
+}
+
+.gray {
 	background-color: #505050;
-	min-height: 184px;
+	color:  #ffffff;
+}
+
+#what-we-do {
+	padding: 3% 14%;
+}
+
+#what-we-do-video {
+	width: 49%;
+	display: inline-block;
+	
+}
+
+#what-we-do-content {
+	width: 50%;
+	display: inline-block;
+	float: right;
+}
+
+#benefits {
+	padding: 3% 14%;
+}
+
+#open-positions {
+	padding: 3% 14%;
+}
+
+#benefits-list {
+	width: 65%;
+	display: inline-block;
+}
+
+#testimonials {
+	width: 34%;
+	display: inline-block;
 }
