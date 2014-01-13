@@ -33,13 +33,13 @@ section h2 {
 }
 
 #title {
+	border: 2px solid red;
 	padding-top: 1%;
 	font-size: 1.25em;
 }
 
 .gray {
-	background-color: #505050;
-	color:  #ffffff;
+	border: 2px solid green;
 }
 
 #what-we-do {
@@ -58,8 +58,23 @@ section h2 {
 	float: right;
 }
 
+#benefits-testimonials {
+	border: 2px solid yellow;
+	background-color: #505050;
+	color:  #ffffff;
+}
+
 #benefits {
+	border: 2px solid black;
 	padding: 3% 14%;
+	width: 30%;
+	display: inline-block;
+}
+
+#testimonials {
+	border: 2px solid orange;
+	width: 34%;
+	display: inline-block;
 }
 
 #open-positions {
@@ -68,12 +83,6 @@ section h2 {
 
 #benefits-list {
 	width: 65%;
-	display: inline-block;
-	box-sizing: border-box;
-}
-
-#testimonials {
-	width: 34%;
 	display: inline-block;
 	box-sizing: border-box;
 }
