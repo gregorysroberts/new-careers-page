@@ -43,13 +43,14 @@ section h2 {
 }
 
 #what-we-do {
+	border: 2px solid blue;
 	padding: 3% 14%;
 }
 
 #what-we-do-video {
+	border: 2px solid orange;
 	width: 49%;
 	display: inline-block;
-	
 }
 
 #what-we-do-content {
@@ -71,6 +72,10 @@ section h2 {
 	display: inline-block;
 }
 
+#benefits h2 {
+
+}
+
 #testimonials {
 	border: 2px solid orange;
 	width: 34%;
@@ -90,6 +95,7 @@ section h2 {
 #benefits-bullets {
 	width: 49%;
 	display: inline-block;
+	vertical-align: top;
 }
 
 #perks-bullets {
@@ -100,4 +106,8 @@ section h2 {
 ul {
 	list-style-type: none;
 	padding-left: 0;
+}
+
+#open-positions li {
+	display: inline;
 }
