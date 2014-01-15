@@ -33,34 +33,42 @@ section h2 {
 }
 
 #title {
-	border: 2px solid red;
 	padding-top: 1%;
 	font-size: 1.25em;
 }
 
-.gray {
-	border: 2px solid green;
+#border-gray {
+	border-top: 1px solid gray;
+	width: 90%;
+	margin: 0 auto;
 }
 
 #what-we-do {
-	border: 2px solid blue;
-	padding: 3% 14%;
+	width: 90%;
+	margin:0 auto;
 }
 
 #what-we-do-video {
-	border: 2px solid orange;
-	width: 49%;
-	display: inline-block;
+	width: 480px;
+	display: inline;
+	float: left;
+	padding: 1% 0;
+	padding-left: 5%;
 }
 
 #what-we-do-content {
-	width: 50%;
-	display: inline-block;
-	float: right;
+	width: 600px;
+	display: inline;
+	float: left;
+	padding-left: 10%;
+}
+
+#what-we-do-content p {
+	width: 600px;
 }
 
 #benefits-testimonials {
-	border: 2px solid yellow;
+	clear: both;
 	background-color: #505050;
 	color:  #ffffff;
 }
@@ -70,7 +78,6 @@ section h2 {
 }
 
 #testimonials {
-	border: 2px solid orange;
 	width: 34%;
 	display: inline-block;
 }
@@ -103,4 +110,7 @@ ul {
 
 #open-positions li {
 	display: inline;
+	float: left;
+	width: 300px;
+	padding-top: 1%;
 }
