@@ -21,7 +21,6 @@ h1 {
 	font-weight: 400;
 	font-size: 1.875em;
 	text-align: center;
-	font-style: italic;
 }
 
 section {
@@ -43,9 +42,9 @@ section h2 {
 	margin: 0 auto;
 }
 
+
 #what-we-do {
 	width: 90%;
-	margin:0 auto;
 }
 
 #what-we-do-video {
@@ -68,27 +67,13 @@ section h2 {
 }
 
 #benefits-testimonials {
-	clear: both;
 	background-color: #505050;
-	color:  #ffffff;
+	color: white;
+	margin: 0 auto;
 }
 
 #benefits h2 {
 
-}
-
-#testimonials {
-	width: 34%;
-	display: inline-block;
-}
-
-#testimonials img {
-	float: left;
-	width: 110px;
-}
-
-#testimonials p {
-	margin-left: 24%;
 }
 
 #open-positions {
@@ -96,11 +81,10 @@ section h2 {
 }
 
 #benefits-bullets {
-	width: 49%;
+	width: 480px;
 	display: inline-block;
-	vertical-align: top;
-	padding: 2% 7%;
-	box-sizing: border-box;
+	padding: 1% 0;
+	padding-left: 5%;
 }
 
 ul {
@@ -113,4 +97,8 @@ ul {
 	float: left;
 	width: 300px;
 	padding-top: 1%;
+}
+
+.clear {
+	clear: both;
 }
