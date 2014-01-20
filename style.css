@@ -74,6 +74,10 @@ li {
 	width: 600px;
 }
 
+#what-we-do-content img {
+	width: 40%;
+}
+
 #benefits-testimonials {
 	background-color: #505050;
 	color: white;
@@ -116,4 +120,8 @@ ul {
 
 .clear {
 	clear: both;
+}
+
+#open-positions p {
+	display: none;
 }
