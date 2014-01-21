@@ -35,6 +35,10 @@ li {
 	padding: 1% 0 2% 2%;
 }
 
+a {
+	text-decoration: none;
+}
+
 #title {
 	padding-top: 1%;
 	font-size: 1.25em;
@@ -132,4 +136,7 @@ ul {
 
 .department li {
 	display: none;
+	font-size: .9em;
+	text-decoration: none;
+	padding-left: 12px;
 }
