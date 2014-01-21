@@ -5,6 +5,4 @@ $(function() {
 		$(this).find('li').css('display', 'block');
 	});
 
-
-
 });

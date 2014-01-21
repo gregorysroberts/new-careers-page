@@ -37,6 +37,7 @@ li {
 
 a {
 	text-decoration: none;
+	color: #3fa9f5;
 }
 
 #title {
@@ -120,7 +121,7 @@ ul {
 }
 
 .department	{
-	display: inline-block;
+	display: inline-table;
 	cursor: pointer;
 }
 
@@ -128,7 +129,7 @@ ul {
 	display: inline;
 	float: left;
 	width: 300px;
-	color: #3fa9f5;
+	color: #393839;
 	font-size: 1.25em;
 	margin: 8px;
 	font-weight: normal;
@@ -140,3 +141,4 @@ ul {
 	text-decoration: none;
 	padding-left: 12px;
 }
+-
