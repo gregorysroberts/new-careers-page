@@ -75,7 +75,8 @@ li {
 }
 
 #what-we-do-content img {
-	width: 40%;
+	width: 600px;
+	padding-bottom: 10px;
 }
 
 #benefits-testimonials {
@@ -110,18 +111,25 @@ ul {
 	margin-bottom: 130px;
 }
 
-#open-positions li {
+.clear {
+	clear: both;
+}
+
+.department	{
+	display: inline-block;
+	cursor: pointer;
+}
+
+.department h3 {
 	display: inline;
 	float: left;
 	width: 300px;
 	color: #3fa9f5;
 	font-size: 1.25em;
+	margin: 8px;
+	font-weight: normal;
 }
 
-.clear {
-	clear: both;
-}
-
-#open-positions p {
+.department li {
 	display: none;
 }

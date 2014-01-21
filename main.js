@@ -1,7 +1,7 @@
 $(function() {
 
-	$('#open-positions li').on('click', function (){
-		alert('greg');
+	$('.department').on('click', function (){
+		$('.department li').css('display', 'block');
 	});
 
 
