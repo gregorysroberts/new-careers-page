@@ -14,6 +14,7 @@ body {
 
 h2 {
 	font-weight: bold;
+	color: #3BA5C2;
 }
 
 h1 {
@@ -37,7 +38,7 @@ li {
 
 a {
 	text-decoration: none;
-	color: #3fa9f5;
+	color: #3BA5C2;
 }
 
 #title {
@@ -58,6 +59,7 @@ a {
 
 #what-we-do {
 	width: 90%;
+	margin: 0 auto;
 }
 
 #what-we-do-video {
@@ -65,22 +67,22 @@ a {
 	display: inline;
 	float: left;
 	padding: 1% 0;
-	padding-left: 10%;
+	padding-left: 4%;
+}
+
+#what-we-do-video img {
+	width: inherit;
 }
 
 #what-we-do-content {
-	width: 600px;
+	width: 40%;
 	display: inline;
 	float: left;
 	padding-left: 4%;
 }
 
-#what-we-do-content p {
-	width: 600px;
-}
-
 #what-we-do-content img {
-	width: 600px;
+	width: 100%;
 	padding-bottom: 10px;
 }
 
@@ -90,8 +92,8 @@ a {
 	margin: 0 auto;
 }
 
-#benefits h2 {
-
+#benefits-bullets h2 {
+	color: white;
 }
 
 #benefits-bullets {
@@ -114,6 +116,10 @@ ul {
 #open-positions {
 	padding: 1% 14% 2% 19%;
 	margin-bottom: 130px;
+}
+
+#open-positions h2 {
+
 }
 
 .clear {
@@ -141,4 +147,22 @@ ul {
 	text-decoration: none;
 	padding-left: 12px;
 }
--
+
+
+@media (min-width: 600px) and (max-width: 1041px) {
+
+	#what-we-do-content {
+		width: 90%;
+	}
+}
+
+@media (max-width: 599px) {
+	
+	#what-we-do-video {
+		width: 90%;
+	}
+
+	#what-we-do-content {
+		width: 90%;
+	}
+}
