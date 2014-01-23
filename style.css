@@ -3,178 +3,178 @@ html {
 }
 
 body {
-	font-family: "Open Sans", Arial, sans-serif;
-	color: #393839;
-	font-weight: 300;
-	padding: 0;
-	margin: 0;
-	/*padding: 3% 14%;*/
-	/*background-color: #CCCCCC;*/
+        font-family: "Open Sans", Arial, sans-serif;
+        color: #393839;
+        font-weight: 300;
+        padding: 0;
+        margin: 0;
+        /*padding: 3% 14%;*/
+        /*background-color: #CCCCCC;*/
 }
 
 h2 {
-	font-weight: normal;
+        font-weight: normal;
 }
 
 h1 {
-	color: #2b9ab5;
-	font-weight: 400;
-	font-size: 1.875em;
-	text-align: center;
+        color: #2b9ab5;
+        font-weight: 400;
+        font-size: 1.875em;
+        text-align: center;
 }
 
 section {
-	margin: 0 auto;
+        margin: 0 auto;
 }
 
 section h2 {
-	text-align: left;
+        text-align: left;
 }
 
 li {
-	padding: 1% 0 2% 2%;
+        padding: 1% 0 2% 2%;
 }
 
 a {
-	text-decoration: none;
-	color: #3BA5C2;
+        text-decoration: none;
+        color: #3BA5C2;
 }
 
 #title {
-	padding-top: 1%;
-	font-size: 1.25em;
+        padding-top: 1%;
+        font-size: 1.25em;
 }
 
 #title img {
-	padding-left: 9%;
+        padding-left: 9%;
 }
 
 #border-gray {
-	border-top: 1px solid gray;
-	width: 90%;
-	margin: 0 auto;
+        border-top: 1px solid gray;
+        width: 90%;
+        margin: 0 auto;
 }
 
 
 #what-we-do {
-	width: 90%;
-	margin: 10 auto;
+        width: 90%;
+        margin: 10 auto;
 }
 
 #what-we-do-video {
-	width: 480px;
-	display: inline;
-	float: left;
-	padding: 1% 0;
-	padding-left: 4%;
+        width: 480px;
+        display: inline;
+        float: left;
+        padding: 1% 0;
+        padding-left: 4%;
 }
 
 #what-we-do-video img {
-	width: inherit;
+        width: inherit;
 }
 
 #what-we-do-content {
-	width: 40%;
-	display: inline;
-	float: left;
-	padding-left: 4%;
+        width: 40%;
+        display: inline;
+        float: left;
+        padding-left: 4%;
 }
 
 #what-we-do-content img {
-	width: 75%;
-	padding-bottom: 10px;
+        width: 75%;
+        padding-bottom: 10px;
 }
 
 #benefits-testimonials {
-	background-color: #505050;
-	color: white;
-	margin: 0 auto;
+        background-color: #505050;
+        color: white;
+        margin: 0 auto;
 }
 
 #benefits-bullets h2 {
-	color: white;
+        color: white;
 }
 
 #benefits-bullets {
-	padding: 1% 14% 2% 19%;
-	display: inline-block;
+        padding: 1% 14% 2% 19%;
+        display: inline-block;
 }
 
 #benefits-bullets li {
-	display: inline-block;
-	padding: 5 0;
-	width: 300px;
-	vertical-align: top;
+        display: inline-block;
+        padding: 5 0;
+        width: 300px;
+        vertical-align: top;
 }
 
 ul {
-	list-style-type: none;
-	padding-left: 0;
+        list-style-type: none;
+        padding-left: 0;
 }
 
 #open-positions {
-	padding: 1% 14% 2% 19%;
-	margin-bottom: 130px;
+        padding: 1% 14% 2% 19%;
+        margin-bottom: 130px;
 }
 
 #open-positions p {
-	color: #3BA5C2;
-	cursor: pointer;
-	font-size: 1.08em;
-	padding-left: 10px;
-	margin: -10px 0 3px 0;
+        color: #3BA5C2;
+        cursor: pointer;
+        font-size: 1.08em;
+        padding-left: 10px;
+        margin: -10px 0 3px 0;
 }
 
 .clear {
-	clear: both;
+        clear: both;
 }
 
-.department	{
-	display: inline-table;
-	cursor: pointer;
-	border-radius: 10px;
+.department        {
+        display: inline-table;
+        cursor: pointer;
+        border-radius: 10px;
 }
 
 .department h3 {
-	display: inline;
-	float: left;
-	width: 300px;
-	color: #393839;
-	font-size: 1.25em;
-	margin: 8px;
-	font-weight: normal;
+        display: inline;
+        float: left;
+        width: 300px;
+        color: #393839;
+        font-size: 1.25em;
+        margin: 8px;
+        font-weight: normal;
 }
 
 .department li {
-	display: none;
-	font-size: .9em;
-	text-decoration: none;
-	padding-left: 12px;
+        display: none;
+        font-size: .9em;
+        text-decoration: none;
+        padding-left: 12px;
 }
 
 .department:hover {
-	background-color: #DADADA;
+        background-color: #DADADA;
 }
 
 @media (min-width: 600px) and (max-width: 1041px) {
 
-	#what-we-do-content {
-		width: 90%;
-	}
+        #what-we-do-content {
+                width: 90%;
+        }
 }
 
 @media (max-width: 599px) {
-	
-	#what-we-do-video {
-		width: 90%;
-	}
+        
+        #what-we-do-video {
+                width: 90%;
+        }
 
-	#what-we-do-content {
-		width: 90%;
-	}
+        #what-we-do-content {
+                width: 90%;
+        }
 
-	p {
-		font-size: 0.9em;
-	}
+        p {
+                font-size: 0.9em;
+        }
 
 }
